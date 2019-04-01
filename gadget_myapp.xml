@@ -3,7 +3,7 @@
   <ModulePrefs title="myapp" />
   <Content type="html">
     <![CDATA[
-        <link rel="stylesheet" type="text/css" href="//sites.google.com/a/purpose.co.jp/ref/common.css">
+        <link rel="stylesheet" type="text/css" href="https://misopan.github.io/tmp/common.css">
     ]]>
   </Content>
 </Module>
