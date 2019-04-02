@@ -4,6 +4,18 @@
   <Content type="html">
     <![CDATA[
         <link rel="stylesheet" type="text/css" href="https://misopan.github.io/tmp/common.css">
+
+        <!-- CDNから読み込み(http, https省いています) -->
+        <script type="text/javascript" src='//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js '></script>
+        <script type="text/javascript" src='//ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js'></script>
+        <link rel="stylesheet" type="text/css" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/redmond/jquery-ui.css">
+
+        <script type="text/javascript">
+            $(document).ready(function(){
+				$('#jot-ui-searchInput').css('color', 'red');
+            });
+        </script>
+
     ]]>
   </Content>
 </Module>
